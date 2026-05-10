@@ -13,3 +13,9 @@ Feature added
 Pushed to GitHub successfully
 
 Added line on GitHub
+
+
+=== METADATA ===
+Created: 2026-05-08
+Last updated: 2026-05-10
+Created by: CaffeineAndSquats
