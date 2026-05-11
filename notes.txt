@@ -1,5 +1,5 @@
 === SUMMARY ===
-Version: 4.0 - BRANCH B ONLY
+Version: 4.0 - BRANCH A AND B MERGED
 This file tracks learning progress for Git and GitHub
 
 === CONTENT ===
