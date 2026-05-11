@@ -1,5 +1,6 @@
 === SUMMARY ===
-This file tracks learning progress for Git and GitHub.
+Version: 3.0 - Feature Branch 1
+This file tracks learning progress for Git and GitHub
 
 === CONTENT ===
 Documentation version: 2.0
