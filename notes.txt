@@ -25,3 +25,4 @@ Created by: CaffeineAndSquats
 
 === REBASE DEMO ===
 Learning rebase workflow
+Rebaser keeps history linear
