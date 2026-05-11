@@ -21,3 +21,8 @@ Added line on GitHub
 Created: 2026-05-08
 Last updated: 2026-05-10
 Created by: CaffeineAndSquats
+
+
+=== REBASE DEMO ===
+Learning rebase workflow
+Rebaser keeps history linear
