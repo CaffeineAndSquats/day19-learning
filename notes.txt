@@ -1,5 +1,5 @@
 === SUMMARY ===
-Version: 3.0 - Feature Branch 1
+Version: 2.5 - Feature Branch 2
 This file tracks learning progress for Git and GitHub
 
 === CONTENT ===
