@@ -30,3 +30,7 @@ Rebaser keeps history linear
 
 === CHERRY PICK TEST A ===
 This is feature A - important fix
+
+
+=== REVERT TEST ===
+This change will be reverted
