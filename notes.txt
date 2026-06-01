@@ -26,3 +26,7 @@ Created by: CaffeineAndSquats
 === REBASE DEMO ===
 Learning rebase workflow
 Rebaser keeps history linear
+
+
+=== CHERRY PICK TEST A ===
+This is feature A - important fix
