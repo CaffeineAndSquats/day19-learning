@@ -32,5 +32,10 @@ Rebaser keeps history linear
 This is feature A - important fix
 
 
+=== STASH DEMO ===
+This is NOW completed work that was stashed
+Work finished!
+
+
 === URGENT HOTFIX ===
 Fixed critical bug in production
