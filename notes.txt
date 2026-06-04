@@ -41,5 +41,5 @@ Work finished!
 Fixed critical bug in production
 
 
-=== STASH 1 ===
-First piece of work
+=== STASH 2 ===
+Second piece of work
