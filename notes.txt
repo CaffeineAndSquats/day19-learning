@@ -43,3 +43,7 @@ Fixed critical bug in production
 
 === STASH 2 ===
 Second piece of work
+
+
+=== STASH WITH MESSAGE ===
+Important work that needs a label
