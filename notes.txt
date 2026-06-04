@@ -30,3 +30,8 @@ Rebaser keeps history linear
 
 === CHERRY PICK TEST A ===
 This is feature A - important fix
+
+
+=== STASH DEMO ===
+This is NOW completed work that was stashed
+Work finished!
