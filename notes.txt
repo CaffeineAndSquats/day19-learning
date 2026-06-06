@@ -59,3 +59,9 @@ New features added
 Bug fixes
 - Fixed bug X
 - Fixed bug Y
+
+
+=== VERSION 1.2.0 ===
+New features added
+- Feature A
+- Feature B
