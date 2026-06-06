@@ -53,3 +53,9 @@ Important work that needs a label
 New features added
 - Feature A
 - Feature B
+
+
+=== VERSION 1.1.1 ===
+Bug fixes
+- Fixed bug X
+- Fixed bug Y
