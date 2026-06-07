@@ -65,3 +65,7 @@ Bug fixes
 New features added
 - Feature A
 - Feature B
+
+
+=== ACTIONS DEMO ===
+Testing GitHub Actions workflow
