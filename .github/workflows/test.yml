@@ -8,30 +8,30 @@ on:
 
 jobs:
   test:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Display file contents
-      run: cat notes.txt
+      - name: Display file contents
+        run: cat notes.txt
 
-    - name: Check for version section
-      run: | 
-        if grep -q "=== VERSION" notes.txt; then
-          echo "✓ Version section found"
-        else
-          echo "✗ Version section missing"
-          exit 1
-        fi
-    
-    - name: Count sections
-      run: |
-        count=$(grep -c "===" notes.txt)
-        echo "Found $count sections"
-        if [ $count -ge 3 ]; then
-          echo "✓ Sufficient sections"
-        else
-          echo "✗ Need more sections"
-          exit 1
-        fi
+      - name: Check for version section
+        run: | 
+          if grep -q "=== VERSION" notes.txt; then
+            echo "✓ Version section found"
+          else
+            echo "✗ Version section missing"
+            exit 1
+          fi
+      
+      - name: Count sections
+        run: |
+          count=$(grep -c "===" notes.txt)
+          echo "Found $count sections"
+          if [ $count -ge 3 ]; then
+            echo "✓ Sufficient sections"
+          else
+            echo "✗ Need more sections"
+            exit 1
+          fi
