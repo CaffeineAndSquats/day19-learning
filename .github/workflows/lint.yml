@@ -1,0 +1,41 @@
+name: Lint
+
+on: 
+  push:
+    branches: [master, main]
+  pull_request: 
+    branches: [master, main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+         
+      - name: Check file exists
+        run: |
+          if [ ! -f notes.txt ]; then
+            echo "✗ notes.txt not found"
+            exit 1
+          fi
+          echo "✓ notes.txt exists"
+
+      - name: Validate format
+        run: |
+          if grep -q "=== SUMMARY ===" notes.txt; then
+            echo "✓ Valid format: has SUMMARY section"
+          else
+            echo "✗ Invalid format: missing SUMMARY section"
+            exit 1
+          fi
+
+      - name: Check file size
+        run: |
+          size=$(wc -c < notes.txt)
+          if [ $size -gt 100 ]; then
+            echo "✓ File is substantial ($size bytes)"
+          else
+            echo "✗ File too small ($size bytes)"
+            exit 1
+          fi
