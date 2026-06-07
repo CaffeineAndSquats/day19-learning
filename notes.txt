@@ -69,3 +69,7 @@ New features added
 
 === ACTIONS DEMO ===
 Testing GitHub Actions workflow
+
+
+=== NEW SECTION ===
+Adding more content to file
