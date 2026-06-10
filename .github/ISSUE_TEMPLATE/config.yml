@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://github.com/CaffeineAndSquats/day19-learning
+    about: Check our documentation first
+  - name: Discussions
+    url: https://github.com/CaffeineAndSquats/day19-learning/discussions
+    about: Ask questions in discussions
